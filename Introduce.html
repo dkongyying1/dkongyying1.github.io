@@ -1,1 +1,48 @@
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dongy博客/介绍</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <script type="text/javascript" src="baidutongji.js"></script>	
+  </head>
+  <body>
+    <div>
+     Dongy博客
+     <br>
+     <br>
+      分类2  <br>
+      自我介绍  <br>
+      工作案例分享  <br>
+      企业信息化  <br>
+      营销相关  <br>
+      技术沉淀  <br>
+      读书心得  <br>
+      碎片心得
+      <br>  
+    </div>
+	 <!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Introduce" data-title="Dongy博客" data-url="/Introduce.html"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+	var duoshuoQuery = {short_name:"dongy"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+<!--禁用多说默认分享到微博和空间的功能 -->	
+$(document).on('click', '#ds-thread textarea[name=message]', function(){
+    $('#ds-sync-checkbox').prop('checked', false);
+});
+	</script>
+	
+<!-- 多说公共JS代码 end -->
+  </body>
+</html>
