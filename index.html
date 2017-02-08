@@ -25,7 +25,7 @@
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"dongy"};
+	var duoshuoQuery = {short_name:"dongy"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
@@ -34,7 +34,7 @@ var duoshuoQuery = {short_name:"dongy"};
 		(document.getElementsByTagName('head')[0] 
 		 || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
-<!--去除多说广告内容
+/*去除多说广告内容
 #ds-thread.ds-thread {
   #ds-reset {
     .ds-comments-info {
@@ -51,7 +51,7 @@ var duoshuoQuery = {short_name:"dongy"};
     }
   }
 }
--->	
+*/	
 <!--禁用多说默认分享到微博和空间的功能 -->	
 $(document).on('click', '#ds-thread textarea[name=message]', function(){
     $('#ds-sync-checkbox').prop('checked', false);
